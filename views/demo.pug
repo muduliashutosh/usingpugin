@@ -1,0 +1,53 @@
+doctype html 
+html
+  head
+    title ASHUTOSH MUDULI
+    style 
+       include ../static/style1.css
+  body
+    nav#navbar 
+      ul 
+        div.logo 
+          img(src="/static/img/download.jpg ", alt="")
+          p ASHU
+        li #[a(href="/") home]  
+        li #[a(href="/") about]  
+        li #[a(href="/") service] 
+        li #[a(href="/") contact] 
+    section#section1 
+       div Welcome to my pug website 
+       div Here we will learn how to wriyte html in pub. 
+    section#section3 
+      h2.misson OUR MISSION
+      div.box 
+          h3 BOX 1
+          div.card-box 
+              div.card-img
+                img(src="/static/img/img1.jpg", alt="")
+              div.card-content 
+                 p this is my box1
+      div.box 
+          h3 BOX 2 
+          div.card-box 
+              div.card-img
+                img(src="/static/img/img1.jpg", alt="")
+              div.card-content 
+                 p this is my box2
+      div.box 
+          h3  BOX 3
+          div.card-box 
+              div.card-img
+                img(src="/static/img/img1.jpg", alt="")
+              div.card-content 
+                 p this is my box3
+    section#section2 
+      div.sponser OUR SPONSERS
+      div.sponser-img 
+       img(src="/static/img/img1.jpg", alt="")
+       img(src="/static/img/img1.jpg", alt="")
+       img(src="/static/img/img1.jpg", alt="")
+       img(src="/static/img/img1.jpg", alt="") 
+    footer 
+      p our footer here 
+    script 
+      include ../static/index.js

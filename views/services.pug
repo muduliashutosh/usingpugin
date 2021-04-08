@@ -1,0 +1,11 @@
+extends base.pug
+block scripts 
+    scripts(scr='/ststic/index.js')
+block style 
+    style 
+        include ../static/style3.css
+block content  
+    div.box 
+        input(type="text",name="name",placeholder="enter your name");
+        button.btn 
+            |submit

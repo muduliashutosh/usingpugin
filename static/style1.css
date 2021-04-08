@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar{
+background-color: grey;
+padding: 14px;
+font-family: cursive;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 25px;
+    color: burlywood;
+}
+#navbar li a:hover{
+    color: black;
+
+}
+.logo{
+    display: flex;
+    color: brown;
+    align-items: center;
+    margin: -7px 0px;
+}
+.logo p{
+    padding-left: 6px;
+    font-size: 12px;
+}
+.logo img{
+    height: 45px;
+    filter: invert(1);  
+}
+#section1{
+    font-size: 32px;
+    color: blanchedalmond;
+    background: center/cover no-repeat url("/static/bg.jpeg");
+    height: 450px;  
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+#section2{
+text-align: center;
+height: 225px;
+background-color: pink;
+}
+#section3{
+    text-align: center;
+    height: 225px;
+    background-color:honeydew;
+    width: 65%;
+    display: block;
+    margin: auto;
+    }
+.sponser,.misson{
+    font-family: cursive;
+    font-size:20px;
+    padding: 10px;
+}
+.box{
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    height: 150px;
+    padding: 10px;
+}
+footer{
+height: 50px;
+background-color: black;
+color: honeydew;
+text-align: center;
+padding: 10px ;
+} 
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card-content p{
+    font-size: 15px;
+    
+}
+.card-img {
+    
+    height: 100px;
+    
+}
+.card-img img{
+    
+    height: inherit;
+    padding: 0 14px;
+}
+.sponser-img{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.sponser-img img{
+    height: 150px;
+    margin-left: 45px;
+}

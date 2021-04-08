@@ -1,0 +1,9 @@
+.box input{
+    border: 2px solid black;
+}
+.btn{
+    border: 2px soild red;
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
